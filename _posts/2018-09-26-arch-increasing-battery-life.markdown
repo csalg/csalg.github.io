@@ -6,7 +6,7 @@ post-link: https://wiki.archlinux.org/index.php/Powertop
 ---
 There are two important tools for optimizing battery performance of Arch on laptops: TLP and powertop. This applies to most distros, not just Arch.
 
-### TLP
+# TLP
 
 Install using pacman or whatever package manager comes with your distro:
 
@@ -27,7 +27,7 @@ We can get data on usb ports with `sudo tlp-usblist`.
 
 I suppose people smarter than me might know how to tweak every parameter of TLP's configuration to achieve optimum performance. The active configuration file can be found by `sudo tlp-stat -c` which will display the file's location and active parameters. To modify the configuration, modify the file and restart the service.
 
-### powertop
+# powertop
 
 As before:
 
