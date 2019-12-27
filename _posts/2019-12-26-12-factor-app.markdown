@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 12-Factor App: A Summary
-date: 2018-09-16 11:23
-post-link: https://wiki.archlinux.org/index.php/Powertop
+title: 12-Factor App, A Summary
+date: 2019-12-26 11:23
+post-link: https://12factor.net/
 ---
 I recently stumbled upon this methodology for building SaaS apps. The website itself is succint and to the point, but regardless here is a quick summary along with my own thoughts:
 
