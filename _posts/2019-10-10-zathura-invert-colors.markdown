@@ -2,7 +2,7 @@
 layout: post
 title: Zathura is awesome
 date: 2019-10-10 11:20
-post-link: https://12factor.net/
+post-link: https://www.noudaldenhoven.nl/wordpress/?p=166
 ---
 
 Zathura is a pdf/djvu/comics reader for Linux. It's awesome because:
