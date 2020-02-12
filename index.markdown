@@ -3,8 +3,7 @@ layout: page
 title: Projects
 ---
 
-# Portfolio
-
+Welcome to my personal website. Here are a few projects I have worked on:
 
 ## Projects
 
