@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Python 3.7 introduces data classes
-date: 2019-12-26 11:23
+date: 2020-01-20 11:23
 post-link: https://docs.python.org/3/library/dataclasses.html
 ---
 
-Python 3.7 introduces this feature which is basically syntactic sugar to avoid a bunch of biolerplate when working with data classes. It creates a special `__init__` which assigns its arguments to the class fields in the order they are passed. This pattern is similar to the old collections.namedtuple...
+Python 3.7 introduces this feature which is basically syntactic sugar to avoid a bunch of boilerplate when working with data classes. It creates a special `__init__` which assigns its arguments to the class fields in the order they are passed. This pattern is similar to the old collections.namedtuple...
 
 ```
 @dataclass
