@@ -9,21 +9,20 @@ Ant Design is probably my favourite UI library. It is developed by Alibaba and u
 
 Setting up Ant Design with named imports and tree shaking has been greatly simplified in v4:
 
-1. First of all, you will need `yarn`, so install that somehow (tip: Google can help if you don't know how).
-2. 
-
+ First of all, you will need `yarn`, so install that somehow (tip: Google can help if you don't know how).
+ 
 ```
 yarn create react-app antd-demo
 cd antd-demo
 yarn add antd
 ```
 
-3. Now we could start using the thing, but we would not get tree shaking. To get tree shaking we need to change the webpack config. There's some tooling for that as well...
+Now we could start using the thing, but we would not get tree shaking. To get tree shaking we need to change the webpack config. There's some tooling for that as well...
 ```
 yarn add react-app-rewired customize-cra
 ```
 
-4. Now edit the scripts in `package.json` so they use react-app-rewired instead of react-scripts:
+Now edit the scripts in `package.json` so they use react-app-rewired instead of react-scripts:
 
 ```
 /* package.json */
@@ -34,13 +33,13 @@ yarn add react-app-rewired customize-cra
 }
 ```
 
-5. More tooling:
+More tooling:
 
 ```
 yarn add babel-plugin-import
 ```
 
-6. Almost there, we need to create a `config-overrides.js` file and paste this in:
+Almost there, we need to create a `config-overrides.js` file and paste this in:
 
 ```
 const { override, fixBabelImports } = require('customize-cra');
@@ -54,7 +53,7 @@ module.exports = override(
 );
 ```
 
-7. Now we can start using the library with tree shaking. Here's an example:
+Now we can start using the library with tree shaking. Here's an example:
 
 ```
 import React, { Component } from 'react';
@@ -74,7 +73,7 @@ class App extends Component {
 export default App;
 ```
 
-8. Then run the start command with `yarn` or `npm`:
+Then run the start command with `yarn` or `npm`:
 
 ```
 yarn start
