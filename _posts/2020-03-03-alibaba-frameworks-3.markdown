@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ant Design Pro(3): Umi blocks
+title: Ant Design Pro (3) - Umi blocks
 date: 2020-03-02 11:23
 post-link: https://dvajs.com/
 ---
