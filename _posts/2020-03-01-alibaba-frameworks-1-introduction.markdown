@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ant Design [1]: Introduction to the Alibaba Frontend Framworks
+title: Ant Design (1): Introduction to the Alibaba Frontend Framworks
 date: 2020-01-20 11:23
 post-link: https://pro.ant.design/
 ---
